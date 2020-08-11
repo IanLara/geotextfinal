@@ -1,0 +1,73 @@
+<section>
+    <div class="container mt-2 shadow bg-light border rounded rounded-lg mt-2">
+       <div class="row">
+          <div class="col-md-5">
+            <img src="imagenes/our_services3.jpg" class="card-img-top m-2">
+          </div>
+          <div class="col-md-7">
+            <h2 class="font-weight-bold azul_002E5D_texto mt-2">Ionization Gas Flamed </h2>
+
+              <p>The FID-GC is a digital flame ionization detector designed for and used in Surface Logging applications. This small portable gas chromatograph has excellent peak separation and with C1 -C5 detection in 60 seconds with a single column. 
+                <br><br>
+              The FID is fully WITS compatible, has flame out detection, hydrogen shutoff safety valve, and exports CSV, TXT, and LAS files. 
+                <br><br>
+              Please remember that Surface Logging is more than just simple gas detection. Raw data from the rig must be interpreted and edited by a professional geologist in order to produce a valid mud log. The ability to edit data and display it in a meaningful form is what distinguishes a logging instrument from a simple rig-based gas detector.</p>
+          </div>
+        </div>
+        <div class="row azul_002E5D pleca_amarilla p-2">
+           <div class="col-md-12 text-white">
+      
+        <p> <span class="font-weight-bold">Features: </span> 
+          <br>
+          <br>
+
+          • Analysis of C1 -C5 in 60 seconds • Automatic calibration • Hydrogen shutoff safety valve • Flame-out detection • Portable • Built-in integration software • Web based User Interface • Output CSV/LAS/TXT and WITS serial • Input serial WITS • Ethernet communication • Detection of C6+ • Digital Mass Flow Controller for Hydrogen • Digital Mass Flow Controller for Makeup Air Specifications • Analysis Time: 60 seconds • Detector: FID • Oven Temperature (typical): 50 °C • Dynamic range: 5ppm to 100% methane • Dimensions: 8”x5”x12” • Weight: ~8 lb Requirements • Hydrogen: 30cc/min, 50PSI • Clean Dry Air: 200cc/min, 60PSI (HC + moisture free) • Sample: 100cc/min (moisture free) • Power 110V/60Hz 75W.
+
+      <br>
+
+        Geotex Surface Logging seamlessly integrates the data it acquires with data collected using directional drilling, logging while drilling, measurement while drilling, wireline, and third-party services. Around-the-clock monitoring and analysis of all operational parameters assure successful well placement while reducing nonproductive time and providing a safe working environment.
+        <br>
+        <br>
+
+          <span class="font-weight-bold">Total Hydrocarbon Analyzer</span> <br><br>
+          
+          This small instrument combines the functionality of a total hydrocarbon analyzer (THA) with integrated CO2, H2S, and O2 sensors. The THA uses a flame ionization detector (FID). This design provides key features for mud logging applications such as: ease of use, wide measuring range, quick response time, WITS data streaming. It makes a great tool for the mud logger. Please remember that Surface Logging is more than just simple gas detection. Raw data from the rig must be interpreted and edited by a professional geologist in order to produce a valid mud log. The ability to edit data and display it in a meaningful form is what distinguishes a logging instrument from a simple rig-based gas detector.
+          <br><br>
+            
+          <span class="font-weight-bold">Features:</span> <br><br>
+
+          Calibration error check • Direct WITS serial output • Flame out detection • Portable • Hydrogen shutoff safety valve • Programmable alarm • Detection of sample line blockage • Web based UI for easy calibration • Digital Mass Flow Controller for Hydrogen • Digital Mass Flow Controller for Make Up Air Specifications • Dynamic range: 10ppm to 100% methane • Detector: FID • Resolution: 10ppm • Rising response time: < 3 sec • Report rate: 10 per sec • Alarm: 80db • Dimensions: 8”x5”x12” • Weight: ~5 lb Requirements • Hydrogen: 20cc/min, 30PSI • Air: 200cc/min, 70PSI (HC + moisture free) • Sample: 100cc/min (moisture free) • Power 110V/60Hz 75W.
+           
+      </p>
+    </div> 
+  </div>
+
+  <div class="row">
+    <div class="col">
+         <div class="azul_002E5D_texto m-2 float-right">Back <a href="#" class="btn btn-outline-dark" style="width: 46px;" id="close">
+          <i class="fas fa-angle-left fa-lg" ></i></a></div>  
+    </div>
+  </div>
+</div>
+    <!--termina contenedor-->
+</section>
+ <script src="js/jquery.js"></script>
+ <script src="js/jquery.js"></script>
+<script>
+  $("#close").click(function(){
+           
+         $.get('pixel.html', function(htmlexterno){
+                 window.location.href = "#3columnas";
+                $("#contenido").html(htmlexterno);
+                $("#3columnas").show();
+          });
+             
+           
+      })
+
+ function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+</script>

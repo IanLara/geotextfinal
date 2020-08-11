@@ -1,0 +1,55 @@
+<section>
+    <div class="container mt-2 shadow bg-light border rounded rounded-lg mt-2">
+       <div class="row">
+          <div class="col-md-5">
+            <img src="imagenes/our_services2.jpg" class="card-img-top m-2">
+          </div>
+          <div class="col-md-7">
+            <h2 class="font-weight-bold azul_002E5D_texto mt-2">Certified surface logging experts</h2>
+            <p>
+              Our surface logging employees are trained and certified to interpret the data collected, with over 20 years of experience working in the Oilfields across United States onshore and offshore for companies like BP,OXY, Exxon Mobil, Chevron Texaco, Conoco Phillips, Australis Oil & Gas, BHP Billiton, Unit Petroleum, Trio Resources, Marathon, Devon Energy and many more. <br><br>
+
+              The logging experts are qualified with the knowledge and skills for their critical roles to ensure they reliably meet and exceed customer requirements and government regulations.  <br><br>
+
+              Ultimately, the end goal is to provide the operator a truer picture of what is taking place with your drilling operation.
+            </p>
+          </div>
+        </div>
+        <div class="row azul_002E5D pleca_amarilla">
+           <div class="col-md-12 text-white">
+      
+        <p class="m-5"> 
+
+          
+      </p>
+    </div> 
+  </div>
+  
+  <div class="row">
+    <div class="col">
+        <div class="azul_002E5D_texto m-2 float-right btn_see_more">Back <a href="#" class="btn btn-outline-dark" style="width: 46px;" id="close">
+          <i class="fas fa-angle-left fa-lg" ></i></a></div> 
+    </div>
+  </div>
+</div>
+    <!--termina contenedor-->
+</section>
+ <script src="js/jquery.js"></script>
+<script>
+  $("#close").click(function(){
+              scrollToAnchor('services');
+         $.get('pixel.html', function(htmlexterno){
+                 window.location.href = "#3columnas";
+                $("#contenido").html(htmlexterno);
+                $("#3columnas").show();
+          });
+             
+           
+      })
+
+ function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+</script>

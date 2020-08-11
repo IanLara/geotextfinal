@@ -1,0 +1,117 @@
+<section>
+    <div class="container mt-2 shadow bg-light border rounded rounded-lg mt-2">
+       <div class="row">
+          <div class="col-md-5">
+            <img src="imagenes/our_services1.jpg" class="card-img-top m-2">
+          </div>
+          <div class="col-md-7">
+            <h2 class="font-weight-bold azul_002E5D_texto mt-2">High Quality Surface Logging Data</h2>
+
+              <p>•Our Surface Logging Services team reliably and accurately monitors, analyzes, and integrates real-time geological drilling data.
+              </p>
+
+              <p>•The services includes lithology, mineralogy, presence of oil, and formation gases</p>
+
+              <p>• The goal is to help you evaluate formations, identify ways to combat wellbore instability, improve hole cleaning, prevent stuck pipe, optimize wellbore construction, and enhance drilling performance. 
+              </p>
+
+              <p>• The real value in Geotex Surface Logging Service is the ability to predict the probability of drilling events that could have harmful results, enabling you to avoid them altogether. </p>
+          </div>
+        </div>
+        <div class="row azul_002E5D pleca_amarilla p-2">
+           <div class="col-md-12 text-white">
+      
+        <p> <span class="font-weight-bold">We provide an extensive array of monitoring and analysis technology and services, including:</span> 
+          <br>
+          <br>
+
+      •Geologic services <br>
+      •Gas monitoring and analysis <br>
+      •Fluids monitoring <br>
+      •Operations monitoring <br>
+
+      <br>
+
+        Geotex Surface Logging seamlessly integrates the data it acquires with data collected using directional drilling, logging while drilling, measurement while drilling, wireline, and third-party services. Around-the-clock monitoring and analysis of all operational parameters assure successful well placement while reducing nonproductive time and providing a safe working environment.
+        <br>
+        <br>
+
+          <span class="font-weight-bold">Proactive interpretation of data:</span> <br><br>
+
+          We have the depth and range of knowledge needed to recognize potential drilling and production problems before they occur. By combining high-quality data, expert interpretation, and predictive analytics, we have the tools to reduce the risk of incidents and improve the performance of your wells in every drilling environment. <br><br>
+
+          We monitor the drilling operations at the wellsite and from remote operation centers to look for changes in data trends, such as a variation in torque, pump pressure, any changes in penetration rate, or an increase in gas levels. If changes occur, the Geotex Surface Logging personnel will notify you immediately. In addition, the TLog control  real-time remote collaboration platform provides 24/7 access to your data with our family of TControl data delivery services.<br><br>
+
+          Geofield Surface Logging Services mudlogs plotting software offers a full range of customizable geological plotting solutions, including measured and horizontal lagged depth logs.<br><br>
+
+          Horizontal and vertical display formats and 1, 2 and 5 inch log scales. We have numerous software data options to provide you the data you want, when you need it, in the format you require.<br><br>
+
+            <span class="font-weight-bold">The following is a list of plotting properties that can be included on all logs:</span><br><br>
+      </p>
+    </div> 
+  </div>
+  <div class="row text-white  azul_002E5D">
+          <div class="col-md-4 mt-2 mb-5">
+              • ROP 1,2 & 5ft <br>
+              • Bit Information <br>
+              • Gas / Oil Show Evaluation <br>
+              • Total Gas <br>
+              • Cuttings Gas <br>
+              • Chromatograph Gas Analysis C1-nC5 <br>
+              • Interpretative Lithology <br>
+              • Results Cores / DSTs <br>
+              • Visual Porosity <br>
+              • % Lithology <br>
+          </div>
+          <div class="col-md-4 mt-2 mb-5">
+            • Fluorescence Evaluation <br>
+            • Connection/Trip / Downtime Gas <br>
+            • Mud Properties <br>
+            • MWD Gamma / Resistivity <br>
+            • Chlorides <br>
+            • Lithology Descriptions <br>
+            • Depth (Measured, TVD and Lagged) <br>
+            • Corrected D-Exponent <br>
+            • Temperature <br>
+
+          </div>
+          <div class="col-md-4 mt-2 mb-5">
+            • Casing Shoe Test or Frac Gradient <br>
+            • Mud Weight <br>
+            • Rig Activity <br>
+            • Drilling Parameters <br>
+            • Estimated Pore Pressure <br>
+            • Digital ACSII / LAS record (1,2,&5ft) <br>
+            • H2S / CO2 <br>
+            • Calcimetry <br>
+          </div>
+  </div>
+  <div class="row">
+    <div class="col">
+         <div class="azul_002E5D_texto m-2 float-right">Back <a href="#" class="btn btn-outline-dark" style="width: 46px;" id="close">
+          <i class="fas fa-angle-left fa-lg" ></i></a></div> 
+    </div>
+  </div>
+</div>
+    <!--termina contenedor-->
+</section>
+ <script src="js/jquery.js"></script>
+ <script src="js/jquery.js"></script>
+<script>
+  $("#close").click(function(){
+           
+         $.get('pixel.html', function(htmlexterno){
+                 window.location.href = "#3columnas";
+                $("#contenido").html(htmlexterno);
+                $("#3columnas").show();
+          });
+             
+           
+      })
+
+ function scrollToAnchor(aid){
+    var aTag = $("a[name='"+ aid +"']");
+    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
+}
+
+</script>
